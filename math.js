@@ -14,6 +14,7 @@ module.exports.square = square;
 // ===================================================
 
 // The above format could be made shorter with just :
+// This is just a another approach for doing same work :)
 
 exports.square = square;
 exports.add = add;
