@@ -13,3 +13,12 @@ console.log("Square is : ", math.square(20));
 
 const cats = require("./catShelter");
 console.log(cats);
+
+// =====================================================
+
+// Getting a joke from "Jokes package"
+
+const jokes = require("./jokes/index");
+console.log("A random Joke : ", jokes);
+
+// =====================================================
