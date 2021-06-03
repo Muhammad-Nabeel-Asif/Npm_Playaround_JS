@@ -22,3 +22,15 @@ const jokes = require("./jokes/index");
 console.log("A random Joke : ", jokes);
 
 // =====================================================
+
+// Added cowsay package in main Directory and now importing here :)
+
+var cowsay = require("cowsay");
+
+console.log(
+  cowsay.say({
+    text: "I'm a moooodule",
+    e: "oO",
+    T: "U ",
+  })
+);
